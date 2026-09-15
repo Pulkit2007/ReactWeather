@@ -1,0 +1,15 @@
+
+body{
+  margin: 10px;
+}
+
+.weather-container{
+  border : 2px solid black;
+  padding: 10px 20px;
+  border-radius: 4px;
+
+}
+
+.weather-type{
+  
+}
