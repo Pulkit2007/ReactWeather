@@ -1,15 +1,75 @@
-
-body{
-  margin: 10px;
+body {
+  margin: 0px;
+  background-color: #caf0f8;
+  padding: 0px;
 }
 
-.weather-container{
-  border : 2px solid black;
+.weather-container {
+  border: 2px solid black;
   padding: 10px 20px;
   border-radius: 4px;
-
+  font-family: Outfit;
+  background-image: url("./assets/image.png");
+  background-size: cover;
+  color: #121212;
+  display: flex;
+  width: 250px;
+  height: auto;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
 }
 
-.weather-type{
-  
+.image {
+  width: 100px;
+  height: 100px;
+  margin: 10px 0px 10px 30px;
+}
+header {
+  background-color: #00b4d8;
+  height: 50px;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  font-family: Outfit;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.icon {
+  width: 50px;
+  margin-right: 5px;
+  border-radius: 100px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  padding: 12px;
+}
+
+.label {
+  margin-right: 10px;
+  color: #023e8a;
+  font-family: Outfit, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  align-self: center;
+}
+
+.search input[type="date"] {
+  width: 180px;
+  height: 38px;
+  padding: 0 10px;
+  border: 1px solid #0096b2;
+  border-radius: 6px;
+  background-color: white;
+  color: #121212;
+  font-family: Outfit, sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.search input[type="date"]:focus {
+  outline: none;
+  border-color: #007c91;
+  box-shadow: 0 0 0 2px rgba(0, 180, 216, 0.25);
 }
