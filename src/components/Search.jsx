@@ -1,10 +1,16 @@
 
-export default function Search(){
+export default function Search() {
+    function handleSubmit(event) {
+        event.preventDefault()
+    }
 
-    return(
+    return (
         <main className="search">
-            <label className="label">Search</label>
-            <input placeholder="Today" type="date"></input>
+            <form onSubmit={handleSubmit}>
+                <label className="label">Location</label>
+                <input placeholder="Delhi" type="text"></input>
+            </form>
+
         </main>
     )
 }
